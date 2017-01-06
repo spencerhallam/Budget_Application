@@ -9,8 +9,8 @@ myApp.controller('MainController', ['$scope', function($scope) {
      carinsurance: 103.50,
      cargas: 50,  
      datetime: new Date(2014, 11, 31, 21, 00, 00, 00),
-     totalmonthlyincome: function(){return 2 + 2;}
   };
+  $scope.totalmonthlyincome = function(){return 2 + 2;}
 }]);
 
 //app.controller('MainController', ['$scope', function($scope) {
