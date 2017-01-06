@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', function($scope) {
+myApp.controller('MainController', ['$scope', function($scope) {
   $scope.monthly = { 
      income1: 1500, 
      income2: 350, 
