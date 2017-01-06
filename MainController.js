@@ -1,11 +1,13 @@
 myApp.controller('MainController', ['$scope', function($scope) {
   $scope.monthly = { 
      income1: 1500, 
-     income2: 350, 
+     income2: 350,
+     income3: 350,
+     food: 400,
      rent: 645, 
      utilities: 35, 
-     cargas: 50, 
-     carinsurance: 103.50, 
+     carinsurance: 103.50,
+     cargas: 50,  
      datetime: new Date(2014, 11, 31, 21, 00, 00, 00)
   };
 }]);
