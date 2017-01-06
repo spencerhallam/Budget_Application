@@ -10,7 +10,6 @@ myApp.controller('MainController', ['$scope', function($scope) {
      cargas: 50,  
      datetime: new Date(2014, 11, 31, 21, 00, 00, 00),
   };
-  $scope.totalmonthlyincome = function(){return 2 + 2;}
 }]);
 
 //app.controller('MainController', ['$scope', function($scope) {
