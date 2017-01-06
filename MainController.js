@@ -8,7 +8,10 @@ myApp.controller('MainController', ['$scope', function($scope) {
      utilities: 35, 
      carinsurance: 103.50,
      cargas: 50,  
-     datetime: new Date(2014, 11, 31, 21, 00, 00, 00)
+     datetime: new Date(2014, 11, 31, 21, 00, 00, 00),
+     totalmonthlyincome: function(){
+     return this.income1 + this.income2 + this.income3;
+     }
   };
 }]);
 
