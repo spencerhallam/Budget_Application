@@ -6,6 +6,9 @@
    margin: 0 auto;
    padding: 20px;
 }
+.income , .expenses, .totals{
+   min-height: 450px;  
+}
 .income{
    background-color: hsl(100, 100%, 95%);
 }
