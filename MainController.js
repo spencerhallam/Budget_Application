@@ -10,11 +10,12 @@ myApp.controller('MainController', ['$scope', function($scope) {
      $scope.utilities = 35;
      $scope.carinsurance = 103.50;
      $scope.cargas = 50;
+     $scope.studentloanpmt = 250;
      $scope.calculations = function(){
          
         $scope.mybiweeklyincome = $scope.income1 + $scope.income2 + $scope.income3;
         $scope.mymonthlyincome = $scope.mybiweeklyincome*2;
-        $scope.monthlyexpenses = $scope.rent + $scope.utilities + $scope.food + $scope.carinsurance  + $scope.cargas;
+        $scope.monthlyexpenses = $scope.rent + $scope.utilities + $scope.food + $scope.carinsurance  + $scope.cargas + $scope.studentloanpmt;
         $scope.descincome = $scope.mymonthlyincome - $scope.monthlyexpenses;  
      };
      $scope.calculations();
