@@ -1,7 +1,7 @@
 myApp.controller('MainController', ['$scope', function($scope) { 
-     $scope.income1 = [350, 500, 1200];
-     $scope.income2 = [350, 500, 1200];
-     $scope.income3 = [350, 500, 1200];
+     $scope.income1 = 1200;//[350, 500, 1200];
+     $scope.income2 = 350;//[350, 500, 1200];
+     $scope.income3 = 500;//[350, 500, 1200];
      $scope.food = [250, 350, 450];
      $scope.rent = 645;
      $scope.utilities = 35;
