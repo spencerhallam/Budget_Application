@@ -1,16 +1,17 @@
 myApp.controller('MainController', ['$scope', function($scope) { 
-     $scope.income1: 1500, 
-     $scope.income2: 350,
-     $scope.income3: 350,
-     $scope.food: 400,
+     $scope.income1: [350, 500, 1200],
+     $scope.income2: [350, 500, 1200],
+     $scope.income3: [350, 500, 1200],
+     $scope.food: [250, 350, 450],
      $scope.rent: 645, 
      $scope.utilities: 35, 
      $scope.carinsurance: 103.50,
      $scope.cargas: 50,  
      $scope.calculations = function(){
-     
+         
     
      };
+     $scope.calculations();
 
 }]);
 
