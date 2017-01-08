@@ -14,21 +14,21 @@
     <div class="main" ng-controller="MainController">
       <div class="container">
          <div class="row">
-             <div class="col-4-lg">
+             <div class="col-4-sm">
                  <p>Monthly Income 1: ${{ income1 }}</p>
                  <p>Monthly Income 2: ${{ income2 }}</p>
                  <p>Monthly Income 3: ${{ income3 }}</p>
              </div>
-             <div class="col-4-lg">
-                 <h3>Rent: ${{ rent }}</h3>
-                 <h3>Utilities: ${{ utilities }}!</h3>
-                 <h3>Food: ${{ food }}!</h3>
-                 <h3>Car Insurance: ${{ carinsurance }}!</h3>
-                 <h3>Gasoline: ${{ cargas }}</h3>
+             <div class="col-4-sm">
+                 <p>Rent: ${{ rent }}</p>
+                 <p>Utilities: ${{ utilities }}</p>
+                 <p>Food: ${{ food }}!</p>
+                 <p>Car Insurance: ${{ carinsurance }}!</p>
+                 <p>Gasoline: ${{ cargas }}</p>
              </div>
-             <div class="col-4-lg">
-                 <h3>Total Monthyly Income: {{ mybiweeklyincome }} </h3>
-                 <h3>Total Monthyly Income: {{ mymonthlyincome }} </h3>
+             <div class="col-4-sm">
+                 <p>Total Monthyly Income: {{ mybiweeklyincome | currency }} </p>
+                 <p>Total Monthyly Income: {{ mymonthlyincome | currency }} </p>
              </div>
     
          </div>
