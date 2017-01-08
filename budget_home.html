@@ -12,20 +12,20 @@
   </head>
   <body ng-app="BudgetApp">
     <div class="main" ng-controller="MainController">
-      <div class="container">
+      <div class="container-fluid">
          <div class="row">
-             <div class="income col-4-sm">
+             <div class="income col-sm-4">
                  <p>Monthly Income 1: {{ income1 | currency }}</p>
                  <p>Monthly Income 2: {{ income2 | currency }}</p>
                  <p>Monthly Income 3: {{ income3 | currency }}</p>
              </div>
 
-            <div class="totals col-4-sm">
+            <div class="totals col-sm-4">
                  <p>Total Monthyly Income: {{ mybiweeklyincome | currency }} </p>
                  <p>Total Monthyly Income: {{ mymonthlyincome | currency }} </p>
              </div> 
 
-             <div class="expenses col-4-sm">
+             <div class="expenses col-sm-4">
                  <p>Rent: {{ rent | currency }}</p>
                  <p>Utilities: {{ utilities | currency }}</p>
                  <p>Food: {{ food | currency }}</p>
