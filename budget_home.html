@@ -15,14 +15,14 @@
       <div class="container">
          <div class="row">
              <div class="col-4-sm">
-                 <p>Monthly Income 1: ${{ income1 }}</p>
-                 <p>Monthly Income 2: ${{ income2 }}</p>
-                 <p>Monthly Income 3: ${{ income3 }}</p>
+                 <p>Monthly Income 1: ${{ income1 | currency }}</p>
+                 <p>Monthly Income 2: ${{ income2 | currency }}</p>
+                 <p>Monthly Income 3: ${{ income3 | currency }}</p>
              </div>
              <div class="col-4-sm">
-                 <p>Rent: ${{ rent }}</p>
-                 <p>Utilities: ${{ utilities }}</p>
-                 <p>Food: ${{ food }}!</p>
+                 <p>Rent: ${{ rent | currency }}</p>
+                 <p>Utilities: ${{ utilities | currency }}</p>
+                 <p>Food: ${{ food | currency }}!</p>
                  <p>Car Insurance: ${{ carinsurance }}!</p>
                  <p>Gasoline: ${{ cargas }}</p>
              </div>
