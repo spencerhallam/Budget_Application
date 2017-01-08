@@ -17,7 +17,7 @@ body p{
 .footer{
 }
 .income , .expenses, .totals{
-   min-height: 250px;  
+   min-height: 320px;  
 }
 .income{
    background-color: hsl(100, 100%, 95%);
