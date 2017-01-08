@@ -1,10 +1,18 @@
+body p{
+  padding: 10px;
+}
 .main{
    max-width: 1200px;
    background-color: white;
 }
-.income p, .expenses p, .totals p{
-   margin: 0 auto;
-   padding: 20px;
+.header, .footer{
+    background-color: hsl(300, 100%, 10%);
+    color: white;
+    font-size: 24px;
+}
+.header{
+}
+.footer{
 }
 .income , .expenses, .totals{
    min-height: 450px;  
