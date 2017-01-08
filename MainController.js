@@ -9,7 +9,8 @@ myApp.controller('MainController', ['$scope', function($scope) {
      $scope.cargas: 50,  
      $scope.calculations = function(){
          
-    
+        $scope.mybiweeklyincome = $scope.income1 + $scope.income2 + $scope.income3;
+        $scope.mymonthlyincome = $scope.mybiweeklyincome*2;
      };
      $scope.calculations();
 
