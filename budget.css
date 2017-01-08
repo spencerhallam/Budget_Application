@@ -6,7 +6,7 @@ body p{
    background-color: white;
 }
 .header, .footer{
-    background-color: black; /* hsl(300, 100%, 10%); */
+    background-color: hsl(200, 100%, 10%); 
     color: white;
     font-size: 24px;
 }
