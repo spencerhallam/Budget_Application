@@ -19,6 +19,12 @@
                  <p>Monthly Income 2: {{ income2 | currency }}</p>
                  <p>Monthly Income 3: {{ income3 | currency }}</p>
              </div>
+
+            <div class="totals col-4-sm">
+                 <p>Total Monthyly Income: {{ mybiweeklyincome | currency }} </p>
+                 <p>Total Monthyly Income: {{ mymonthlyincome | currency }} </p>
+             </div> 
+
              <div class="expenses col-4-sm">
                  <p>Rent: {{ rent | currency }}</p>
                  <p>Utilities: {{ utilities | currency }}</p>
@@ -26,10 +32,7 @@
                  <p>Car Insurance: {{ carinsurance | currency }}</p>
                  <p>Gasoline: {{ cargas | currency }}</p>
              </div>
-             <div class="totals col-4-sm">
-                 <p>Total Monthyly Income: {{ mybiweeklyincome | currency }} </p>
-                 <p>Total Monthyly Income: {{ mymonthlyincome | currency }} </p>
-             </div>
+             
     
          </div>
 
