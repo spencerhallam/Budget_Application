@@ -14,8 +14,17 @@
     <div class="main" ng-controller="MainController">
       <div class="container-fluid">
          <div class="row">
-             <div class="header col-sm-12">
+             <div class="header col-sm-3">
                <h1>Money Bot</h1>
+             </div>
+             <div class="header col-sm-8">
+               <form>
+                 <select ng-model="income1" ng-options="o as o for o in income1_options">
+                 </select>
+               <p>Monthly Income 1: {{ income1 | currency }}</p>
+                 
+                 
+               </form>  
              </div>
         </div>  
       </div>         
