@@ -31,3 +31,6 @@ body p{
 .calc-form{
   padding: 10px;
 }
+.inline-block{
+  display: inline-block;
+}
