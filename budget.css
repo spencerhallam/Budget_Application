@@ -6,7 +6,7 @@ body p{
    background-color: white;
 }
 .header, .footer{
-    background-color: hsl(300, 100%, 10%);
+    background-color: black; /* hsl(300, 100%, 10%); */
     color: white;
     font-size: 24px;
 }
@@ -20,9 +20,9 @@ body p{
 .income{
    background-color: hsl(100, 100%, 95%);
 }
-.expenses{
-   background-color: hsl(200, 100%, 95%);
-}
 .totals{
    background-color: hsl(300, 100%, 95%);
+}
+.expenses{
+   background-color: hsl(200, 100%, 95%);
 }
