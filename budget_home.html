@@ -12,8 +12,27 @@
   </head>
   <body ng-app="BudgetApp">
     <div class="main" ng-controller="MainController">
-      <hr>
-      <h3>Monthly Income 1: ${{ income1 }}</h3>
+      <div class="container">
+         <div class="row">
+             <div class="col-4-lg">
+                 <p>Monthly Income 1: ${{ income1 }}</p>
+                 <p>Monthly Income 2: ${{ income2 }}</p>
+                 <p>Monthly Income 3: ${{ income3 }}</p>
+             </div>
+             <div class="col-4-lg">
+                 <h3>Rent: ${{ rent }}</h3>
+                 <h3>Utilities: ${{ utilities }}!</h3>
+                 <h3>Food: ${{ food }}!</h3>
+                 <h3>Car Insurance: ${{ carinsurance }}!</h3>
+                 <h3>Gasoline: ${{ cargas }}</h3>
+             </div>
+             <div class="col-4-lg">
+             </div>
+    
+         </div>
+
+      </div>
+      <h3></h3>
       <h3>Monthly Income 2: ${{ income2 }}</h3>
       <h3>Monthly Income 3: ${{ income3 }}</h3>
       <h3>Rent: ${{ rent }}</h3>
