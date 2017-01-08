@@ -14,6 +14,14 @@
     <div class="main" ng-controller="MainController">
       <div class="container-fluid">
          <div class="row">
+             <div class="header income col-sm-12">
+               <h1>Money Bot</h1>
+             </div>
+        </div>  
+      </div>         
+               
+      <div class="container-fluid">
+         <div class="row">
              <div class="income col-sm-4">
                  <p>Monthly Income 1: {{ income1 | currency }}</p>
                  <p>Monthly Income 2: {{ income2 | currency }}</p>
@@ -21,7 +29,7 @@
              </div>
 
             <div class="totals col-sm-4">
-                 <p>Total Monthyly Income: {{ mybiweeklyincome | currency }} </p>
+                 <p>Total Biweekly Income: {{ mybiweeklyincome | currency }} </p>
                  <p>Total Monthyly Income: {{ mymonthlyincome | currency }} </p>
              </div> 
 
@@ -32,7 +40,13 @@
                  <p>Car Insurance: {{ carinsurance | currency }}</p>
                  <p>Gasoline: {{ cargas | currency }}</p>
              </div>
-             
+       <div class="container-fluid">
+         <div class="row">
+             <div class="footer income col-sm-12">
+               <h1>Money Bot Footer</h1>
+             </div>
+        </div>  
+      </div>          
     
          </div>
 
