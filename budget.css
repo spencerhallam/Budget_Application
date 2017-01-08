@@ -1,3 +1,12 @@
 *{
 background-color: #efefef;
 }
+.income{
+   background-color: hsl(100, 100%, 90%);
+}
+.expenses{
+   background-color: hsl(200, 100%, 90%);
+}
+.totals{
+   background-color: hsl(300, 100%, 90%);
+}
