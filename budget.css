@@ -1,9 +1,9 @@
 .income{
-   background-color: hsl(100, 100%, 90%);
+   background-color: hsl(100, 100%, 95%);
 }
 .expenses{
-   background-color: hsl(200, 100%, 90%);
+   background-color: hsl(200, 100%, 95%);
 }
 .totals{
-   background-color: hsl(300, 100%, 90%);
+   background-color: hsl(300, 100%, 95%);
 }
