@@ -17,7 +17,7 @@ body p{
 .footer{
 }
 .income , .expenses, .totals{
-   min-height: 450px;  
+   min-height: 250px;  
 }
 .income{
    background-color: hsl(100, 100%, 95%);
@@ -27,4 +27,7 @@ body p{
 }
 .expenses{
    background-color: hsl(200, 100%, 95%);
+}
+.calc-form{
+  padding: 10px;
 }
