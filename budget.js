@@ -1,9 +1,6 @@
 $(document).ready(function(){
    $('.show-01, .show-02, .show-03, .show-04, .show-05, .show-06, .show-07, .show-08, .show-09, .show-10').hide();
    alert("working!");
-  $(".income").on("mouseover", function(){
-        $('body').addClass("gored");
-   });
    $('.on-01').on("click", function(){
         $('.show-01').toggle();
    });
