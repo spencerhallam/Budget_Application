@@ -35,3 +35,6 @@ body p{
 .inline-block{
   display: inline-block;
 }
+form.li{
+ display:inline-block;
+}
