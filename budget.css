@@ -39,6 +39,7 @@ body p{
  padding: 0 0 8px 0
  display:inline-block;
 }
-.pad-left{
+.show-select{
+  display:none;
   margin-left: 20px;
 }
