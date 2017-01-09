@@ -38,6 +38,6 @@ body p{
 form.li{
  display:inline-block;
 }
-select{
+.pad-left{
   margin-left: 20px;
 }
