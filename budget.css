@@ -35,7 +35,7 @@ body p{
 .inline-block{
   display: inline-block;
 }
-form.li{
+.calc-form li{
  padding: 0 0 8px 0
  display:inline-block;
 }
