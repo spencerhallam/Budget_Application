@@ -38,3 +38,6 @@ body p{
 form.li{
  display:inline-block;
 }
+select{
+  padding-left: 20px;
+}
