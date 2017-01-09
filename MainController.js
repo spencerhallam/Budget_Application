@@ -11,12 +11,14 @@ myApp.controller('MainController', ['$scope', function($scope) {
      $scope.carinsurance = 103.50;
      $scope.cargas = 50;
      $scope.studentloanpmt = 250;
+     $scope.phone = 110;
+     $scope.internet = 35;
      $scope.calculations = function(){
          
         $scope.mybiweeklyincome = $scope.income1 + $scope.income2 + $scope.income3;
         $scope.mymonthlyincome = $scope.mybiweeklyincome*2;
-        $scope.monthlyexpenses = $scope.rent + $scope.utilities + $scope.food + $scope.carinsurance  + $scope.cargas + $scope.studentloanpmt;
-        $scope.descincome = $scope.mymonthlyincome - $scope.monthlyexpenses;  
+        $scope.monthlyexpenses = $scope.rent + $scope.utilities + $scope.food + $scope.carinsurance  + $scope.cargas + $scope.studentloanpmt + $scope.phone + $scope.internet;
+        $scope.descincome = $scope.mymonthlyincome - $scope.monthlyexpenses;   
      };
      $scope.calculations();
 }]);
