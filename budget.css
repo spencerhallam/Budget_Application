@@ -20,6 +20,9 @@ body p{
 .income , .expenses, .totals{
    min-height: 320px;  
 }
+.gored{
+  background-color:red;
+}
 .income{
    background-color: hsl(100, 100%, 95%);
 }
