@@ -28,6 +28,8 @@ myApp.controller('MainController', ['$scope', function($scope) {
      $scope.internet = 35;
      $scope.creditcard1 = 20;
      $scope.creditcard2 = 100;
+     
+     //calculations
      $scope.calculations = function(){
          
         $scope.mybiweeklyincome = $scope.income1 + $scope.income2 + $scope.income3;
