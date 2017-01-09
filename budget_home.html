@@ -52,17 +52,28 @@
              </div>
 
              <div class="expenses col-sm-4">
-                 <p>Rent: {{ rent | currency }}</p>
-                 <p>Utilities: {{ utilities | currency }}</p>
-                 <p>Food: {{ food | currency }}</p>
-                 <p>Car Insurance: {{ carinsurance | currency }}</p>
-                 <p>Gasoline: {{ cargas | currency }}</p>
-                 <p>Student Loan Payment: {{ studentloanpmt | currency }}</p>
-                 <p>Phone: {{ phone | currency }}</p>
-                 <p>Internet: {{ internet | currency }}</p>
-                 <p>Creditcard1: {{ creditcard1 | currency }}</p>
-                 <p>Creditcard2: {{ creditcard2 | currency }}</p>
-                 
+                 <form>
+                 <p>Rent: {{ rent | currency }}</p><select ng-change="calculations()" ng-model="rent" ng-options="o as o for o in rent_options">
+                 </select>
+                 <p>Utilities: {{ utilities | currency }}</p><select ng-change="calculations()" ng-model="utilities" ng-options="o as o for o in utilities_options">
+                 </select>
+                 <p>Food: {{ food | currency }}</p><select ng-change="calculations()" ng-model="food" ng-options="o as o for o in food_options">
+                 </select>
+                 <p>Car Insurance: {{ carinsurance | currency }}</p><select ng-change="calculations()" ng-model="carinsurance" ng-options="o as o for o in carinsurance_options">
+                 </select>
+                 <p>Gasoline: {{ cargas | currency }}</p><select ng-change="calculations()" ng-model="cargas" ng-options="o as o for o in cargas">
+                 </select>
+                 <p>Student Loan Payment: {{ studentloanpmt | currency }}</p><select ng-change="calculations()" ng-model="studentloanpmt" ng-options="o as o for o in studentloanpmt_options">
+                 </select>
+                 <p>Phone: {{ phone | currency }}</p><select ng-change="calculations()" ng-model="phone" ng-options="o as o for o in phone_options">
+                 </select>
+                 <p>Internet: {{ internet | currency }}</p><select ng-change="calculations()" ng-model="internet" ng-options="o as o for o in internet_options">
+                 </select>
+                 <p>Creditcard1: {{ creditcard1 | currency }}</p><select ng-change="calculations()" ng-model="creditcard1" ng-options="o as o for o in creditcard1_options">
+                 </select>
+                 <p>Creditcard2: {{ creditcard2 | currency }}</p><select ng-change="calculations()" ng-model="creditcard2" ng-options="o as o for o in creditcard2_options">
+                 </select>
+                 </form>
              </div>
            
              <div class="totals col-sm-4">
