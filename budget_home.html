@@ -45,13 +45,13 @@
         </div>    
       
          <div class="row">
-             <div class="income col-sm-4">
+             <div class="income col-sm-3">
                  <p>Monthly Income 1: {{ income1 | currency }}</p>
                  <p>Monthly Income 2: {{ income2 | currency }}</p>
                  <p>Monthly Income 3: {{ income3 | currency }}</p>
              </div>
 
-             <div class="expenses col-sm-4">
+             <div class="expenses col-sm-6">
                  <form>
                  <ul>  
                    <li>Rent: {{ rent | currency }}<select ng-change="calculations()" ng-model="rent" ng-options="o as o for o in rent_options">
@@ -78,7 +78,7 @@
                  </form>
              </div>
            
-             <div class="totals col-sm-4">
+             <div class="totals col-sm-3">
                  <p>Total Biweekly Income: {{ mybiweeklyincome | currency }} </p>
                  <p>Total Monthly Income: {{ mymonthlyincome | currency }} </p>
                  <p>Total Monthly Expenses: {{ monthlyexpenses | currency }} </p>
