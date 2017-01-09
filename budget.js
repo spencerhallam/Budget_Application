@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   alert('working!');
    $('.income').on("mouseover": function(){
         $('body').addClass("gored");
    });
