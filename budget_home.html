@@ -72,7 +72,7 @@
                    </select></li>
                    <li>Creditcard1: {{ creditcard1 | currency }}<select ng-change="calculations()" ng-model="creditcard1" ng-options="o as o for o in creditcard1_options">
                    </select></li>
-                   <li>Creditcard2: {{ creditcard2 | currency }}<select ng-change="calculations()" ng-model="creditcard2" ng-options="o as o for o in creditcard2_options">
+                   <li>Creditcard2: {{ creditcard2 | currency }}<select class="pad-left" ng-change="calculations()" ng-model="creditcard2" ng-options="o as o for o in creditcard2_options">
                    </select></li>
                  </ul>  
                  </form>
