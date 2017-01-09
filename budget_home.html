@@ -54,7 +54,7 @@
              <div class="expenses col-sm-4">
                  <form>
                  <ul>  
-                   <li><p>Rent: {{ rent | currency }}</p><select ng-change="calculations()" ng-model="rent" ng-options="o as o for o in rent_options">
+                   <li>Rent: {{ rent | currency }}<select ng-change="calculations()" ng-model="rent" ng-options="o as o for o in rent_options">
                    </select></li>
                    <li><p>Utilities: {{ utilities | currency }}</p><select ng-change="calculations()" ng-model="utilities" ng-options="o as o for o in utilities_options">
                    </select></li>
