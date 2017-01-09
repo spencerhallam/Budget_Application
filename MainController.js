@@ -1,11 +1,12 @@
 myApp.controller('MainController', ['$scope', function($scope) { 
-     $scope.income1_options = [0, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400];
-     $scope.income2_options = [0, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400];
-     $scope.income3_options = [0, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400];
-     $scope.food_options = 300; 
-     $scope.rent_options = 645;
+     $scope.highrange = [0, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400];
+     $scope.income1_options = $scope.highrange;
+     $scope.income2_options = $scope.highrange;
+     $scope.income3_options = $scope.highrange;
+     $scope.food_options = [0, 100, 150, 200, 350, 400, 450]; 
+     $scope.rent_options = [0, 645, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850];
      $scope.utilities_options = 35;
-     $scope.carinsurance_options = 103.50;
+     $scope.carinsurance_options = [0, 5 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
      $scope.cargas_options = 50;
      $scope.studentloanpmt_options = 250;
      $scope.phone_options = 110;
