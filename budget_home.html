@@ -61,7 +61,7 @@
                  </select>
                  <p>Car Insurance: {{ carinsurance | currency }}</p><select ng-change="calculations()" ng-model="carinsurance" ng-options="o as o for o in carinsurance_options">
                  </select>
-                 <p>Gasoline: {{ cargas | currency }}</p><select ng-change="calculations()" ng-model="cargas" ng-options="o as o for o in cargas">
+                 <p>Gasoline: {{ cargas | currency }}</p><select ng-change="calculations()" ng-model="cargas" ng-options="o as o for o in cargas_options">
                  </select>
                  <p>Student Loan Payment: {{ studentloanpmt | currency }}</p><select ng-change="calculations()" ng-model="studentloanpmt" ng-options="o as o for o in studentloanpmt_options">
                  </select>
